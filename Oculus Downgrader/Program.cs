@@ -326,7 +326,7 @@ namespace RIFT_Downgrader
                     Console.WriteLine("[11] Direct execute");
                     Console.WriteLine("[12] Open graphical ui");
                     Console.WriteLine("[13] Settings");
-					Console.WriteLine("[14] Exit");
+                    Console.WriteLine("[14] Exit");
                     string choice = ConsoleUiController.QuestionString("Choice: ");
                     Logger.Log("User choose option " + choice);
                     switch (choice)
